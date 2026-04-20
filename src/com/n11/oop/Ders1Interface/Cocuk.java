@@ -17,6 +17,6 @@ public class Cocuk extends Insan implements IDers {
 
     @Override
     public void dersCalis() {
-        System.out.print(" okuyor");
+        System.out.print(" Ders calisiyor.");
     }
 }

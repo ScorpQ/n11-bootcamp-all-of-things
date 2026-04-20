@@ -11,12 +11,12 @@ import com.n11.oop.Ders1Interface.Interfaces.IMaket;
 public class Baba extends Insan implements IMaket, IBahce {
     @Override
     public void maketYap() {
-        System.out.print(" dinliyor.");
+        System.out.print(" maket yapıyor.");
 
     }
 
     @Override
     public void bahceDuzenle() {
-        System.out.print(" okuyor.");
+        System.out.print(" bahce duzenliyor.");
     }
 }

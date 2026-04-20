@@ -11,11 +11,11 @@ import com.n11.oop.Ders1Interface.Interfaces.ITemizlik;
 public class Anne extends Insan implements ITemizlik, ISofra {
     @Override
     public void temizlikYap() {
-        System.out.print(" okuyor");
+        System.out.print(" temizlik yapıyor.");
     }
 
     @Override
     public void sofraHazirla() {
-        System.out.print(" yazıyor");
+        System.out.print(" sofra hazirliyor.");
     }
 }
