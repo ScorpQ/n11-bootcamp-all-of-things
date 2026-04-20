@@ -1,12 +1,13 @@
 package com.n11.oop.Ders1Interface;
 
-import com.n11.oop.Ders1Interface.Interfaces.IOku;
+import com.n11.oop.Ders1Interface.Interfaces.IDers;
+import com.n11.oop.Ders1Interface.Interfaces.IMaket;
 
 
-// Cocuk sadece okumalı, interface sayesinde sadece bu methodları implemente ettik.
+// Cocuk sadece ders calismalı, interface sayesinde sadece bu methodları implemente ettik.
 // Ayrıca eğer implemente etmezsek kesinlikle hata alırız. Hataları engelemek için override ederek sözleşmedeki
 // methodları kesinlikle eklemek zorundayız.
-public class Cocuk extends Insan implements IOku {
+public class Cocuk extends Insan implements IDers {
 
     public String sifat;
 
@@ -15,7 +16,7 @@ public class Cocuk extends Insan implements IOku {
     }
 
     @Override
-    public void oku() {
+    public void dersCalis() {
         System.out.print(" okuyor");
     }
 }

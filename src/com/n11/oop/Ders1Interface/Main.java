@@ -17,23 +17,26 @@ public class Main {
         // Bunu class ile yaptığımı zaman, encapslation methoduna aykırılık yani herkes her methoda erişebilir hale gelmişti
         // Şimdi ise interface'ler tanımlarıp bunları ilgili classlara implemente ediyoruz.
 
-        // Baba okusun ve dinlesin - Anne okusun ve yazsın - Çocuk is sadece okusun
+        // Baba maketyapsı ve bahcedüzenelsin - Anne softrahazırlasın ve temizlikyapsın - Çocuk is sadece derscalissin
 
         Baba baba2  = new Baba();
         Anne anne2 = new Anne();
         Cocuk cocuk2 = new Cocuk();
 
-        // baba2.yaz(); Kesinlikle hata atar çünkü 'yaz' interface'ini baba class'ına implemente etmedik. Baba sadece 'oku ve dinle'
-        baba2.dinle();
-        baba2.oku();
+        // baba2.sofraHazirla/temizlikYap(); Kesinlikle hata atar çünkü 'sofraHazirla/temizlikYap'
+        // interface'ini baba class'ına implemente ETMEDİK. Baba sadece 'bahceDuzenle ve maketYap'
+        baba2.bahceDuzenle();
+        baba2.maketYap();
 
-        // anne2.dinle(); Kesinlikle hata atar çünkü 'dinle' interface'ini anne class'ına implemente etmedik. Anne sadece 'oku ve yaz'
-        anne2.yaz();
-        anne2.oku();
+        // anne2.bahceDuzenle/maketYap(); Kesinlikle hata atar çünkü 'bahceDuzenle/maketYap'
+        // interface'ini anne class'ına implemente ETMEDİK. Anne sadece 'sofraHazirla ve temizlikYap'
+        anne2.sofraHazirla();
+        anne2.temizlikYap();
 
-        // cocuk2.dinle/yaz(); Kesinlikle hata atar çünkü 'dinle/yaz' interface'ini cocuk class'ına implemente etmedik. Cocuk sadece 'oku'
-        cocuk2.oku();
+        // cocuk2.sofraHazirla/temizlikYap(); Kesinlikle hata atar çünkü 'sofraHazirla/temizlikYap'
+        // interface'ini cocuk class'ına implemente etmedik. Cocuk sadece 'dersCalis'
+        cocuk2.dersCalis();
 
-        // Interface'i kafamızd fazla büyütmeyelim....
+        // Interface'i kafamızda fazla büyütmeyelim....
     }
 }

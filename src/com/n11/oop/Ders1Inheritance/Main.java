@@ -63,9 +63,8 @@ public class Main {
 
 
 
-
         // Son olarak biz bazı class'ların bazı özel özelliklere sahip olmasını istersek yani
-        // Baba okusun ve dinlesin - Anne okusun ve yazsın - Çocuk is sadece okusun
+        // Baba maketyap ve bahçedüzenle- Anne sofrahazırla ve temizlikyap - Çocuk ise dersçalış özelliklerine sahip olsun.
         // Bunu interface ile yapabiliriz ama önce Class kullanarak yapmaya çalışalım ve sonuçları aşağıda özetleyelim::
 
         // Insan class'ına Özellikler classını extend ederiz. Böylece gerçekten de bu istenilen özelliklere erişebiliriz.
@@ -73,12 +72,12 @@ public class Main {
         Anne anne2 = new Anne();
         Cocuk cocuk2 = new Cocuk();
 
-        // Fark ettiysen baba yazmamalı - anne dinlememeli - cocuk okumamalı ama tüm bunları yapabiliyor.
-        // Istenilenleri yapabildikleri gibi istenmeyen durumları da yapar hale geldiler.
+        // Fark ettiysen baba sofrahazırla yapmamalı - anne maket yapmamalı - cocuk temizlikyapmamlı ama tüm bunları yapabiliyor.
+        // İstedikleri özellikleri yapabildikleri gibi istenmeyen özellikleri da yapar hale geldiler.
         // Demekki Class'lara özel özellikler tanımlamak istersek class kullanmamamız lazım.
-        baba2.yaz();
-        anne2.dinle();
-        cocuk2.oku();
+        baba2.sofrahazırla();
+        anne2.maketyap();
+        cocuk2.temizlikyap();
 
         // ---- !! ----
         // Son olarak burada encapsulation kavramını da ihlal etmiş oluruz. Çünkü istenmeyen özelliklere erişe de biliyoruz.
@@ -87,8 +86,5 @@ public class Main {
         // ------------
 
         // Ders1Interface kısmında geçelim...
-
-
-
     }
 }

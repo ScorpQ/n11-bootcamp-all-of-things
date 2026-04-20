@@ -1,7 +1,7 @@
 package com.n11.oop.Ders1Interface;
 
-// "extends  Ozellikler" kısmını ilk başta görmezden gel.
-// son notlarda buraya değinip "interface" yapısına geçyiyoruz.
+// Ders1Inheritance'yi incelersen burada "extend Ozellikler" kodunu görmen lazım
+// Neden burada olmadığını Ders1Interface kısmını inceleyerek anlayabilirsin.
 public class Insan {
     public String ad;
     public String soyad;

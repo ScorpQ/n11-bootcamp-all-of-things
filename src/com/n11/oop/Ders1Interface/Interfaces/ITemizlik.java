@@ -11,6 +11,6 @@ package com.n11.oop.Ders1Interface.Interfaces;
 // Interface olmazsa geliştirme sıralarında varolan bir method tekrar farklı bir isimle eklenebilir.
 // Bu sebeple DRY yapısına aykırılığa sebep olabilir.
 
-public interface IYaz {
-    public void yaz();
+public interface ITemizlik {
+    public void temizlikYap();
 }
