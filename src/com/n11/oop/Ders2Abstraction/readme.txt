@@ -13,11 +13,11 @@ Peki Interface ile Abtraction farkı nedir?
         konuşma özelliği tüm class'larda ortak olduğu için burada abstract class kullanmalıyız.
 
 
-        - Anne sadece okuyabilir, yazabilir.
-        - Baba sadece okuyabilir, dinleyebilir.
-        - Cocuk sadece okuyabilir.
-        okuma-yazma-dinleme sadece bazı classlara özel olduğu için interface kullanılır.
+        - Anne sadece sofrahazırlar, temizlikyapar.
+        - Baba sadece maketyapar,bahcedüzenler .
+        - Cocuk sadece derscalısır.
+        ders-maket-sofra-... sadece bazı classlara özel olduğu için interface kullanılır.
 
-    INTERFACE = CAN DO?
-    ABSTRACTION IS A?
+    INTERFACE = CAN X DO?
+    ABSTRACTION = IS A X?
     bu soruları da sorabiliriz.
