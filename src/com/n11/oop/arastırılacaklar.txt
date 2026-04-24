@@ -1,0 +1,15 @@
+Web nasıl çalışır?
+
+OSI Katmanı nedir?
+
+IP'ler nereden verilir?
+
+Reflection
+
+Aspect Oriated Programing
+
+Dependecy Injection
+
+mikro servislerde transaction yönetimi için design patternler (saga, outbox)
+
+generics, primitite, wrapper, heap, stack,
